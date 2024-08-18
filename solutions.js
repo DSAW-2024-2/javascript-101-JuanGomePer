@@ -40,7 +40,6 @@ function countVowels(str) {
 
   const vocales = 'aeiouAEIOU';
   let cuenta = 0;
-
   for (let char of str) {
       if (vocales.includes(char)) {
         cuenta++;
